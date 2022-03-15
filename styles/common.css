@@ -1,0 +1,61 @@
+body, html {
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	font-family: serif;
+	gap:  15px;
+}
+
+.textnav {
+	width: 330px;
+	height: 150px;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	line-height: 150px;
+}
+
+.footer {
+	bottom: 0;
+	width: auto;
+	height: 180px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar {
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	background-color: #f4ede1;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+.globalReservation {
+	background-image: url("../assets/paysage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 256px;
+	width: 100%;
+}
+.globalReservation .buttun{
+	margin-top: 98px;
+	margin-left: 150px;
+	padding: 20px;
+}
+
+.buttun{
+	font-size: 40px;
+	border: 4px solid #FFFFFF;
+	color: white;
+	text-align: center;
+	display: inline-block;
+}
