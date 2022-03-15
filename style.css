@@ -92,11 +92,32 @@ border-radius: 0px;
 	border-color: #C8C8C8;
 	width: 610px;
 	height: 150px;
-	justify-content: space-between;
+	justify-content: center;
 	display: flex;
 	border-radius: 90px;
 	background-color: #C8C8C8;
 	align-items: center;
-	box-shadow: box-shadow: -1px 8px 1px -3px white;
+	overflow: hidden;
+
+}
+
+.inter {
+  width: 80%;
+  justify-content: space-between;
+
+}
+
+.textplat {
+  margin: 10px;
+  z-order: 50;
+}
+
+.carte {
+position: absolute;
+  width auto;
+  height: 745px;
+}
+
+.textcarte {
 
 }
