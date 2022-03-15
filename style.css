@@ -23,18 +23,7 @@ body, html {
 	justify-content: space-between;
 	background-color: #A19794;
 }
-.inside {
-	width: 100%;
-	height: 900px;
-	position: absolute;
-}
-.test {
-	display: flex;
 
-	position: initial;
-	z-index: 8;
-	text-align: center;
-}
 
 .footer {
 	bottom: 0;
@@ -87,16 +76,22 @@ border-radius: 0px;
 	width: 250px;
 	height: 250px;
 	border-radius: 110px;
+	align-self: center;
 }
 .plats {
 	border-color: #C8C8C8;
 	width: 610px;
 	height: 150px;
-	justify-content: space-between;
 	display: flex;
 	border-radius: 90px;
 	background-color: #C8C8C8;
-	align-items: center;
-	box-shadow: box-shadow: -1px 8px 1px -3px white;
+	justify-content: center;
+	overflow: hidden;
 
+}
+
+.inter {
+	width: 70%;
+	justify-content: space-between;
+	display: flex;
 }
