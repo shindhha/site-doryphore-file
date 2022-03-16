@@ -62,9 +62,7 @@
 	width: 825px;
 	border-radius: 100px;
 	overflow: hidden;
-	text-align: center;
 }
-
 
 .Accueil {
 	border-color: #C8C8C8;
@@ -87,3 +85,11 @@
 	font-size: 30px;
 }
 
+.textplat {
+	margin-top: 60px;
+}
+
+.buttun .Article1 {
+	margin-bottom: 0;
+	display: inline-block;
+}
