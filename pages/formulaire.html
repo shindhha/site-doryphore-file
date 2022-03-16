@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="../styles/common.css">
-	<link rel="stylesheet" type="text/css" href="../styles/Histoire.css">
+	<link rel="stylesheet" type="text/css" href="../styles/Reservation.css">
 	<title></title>
 </head>
 <body>
@@ -15,8 +15,41 @@
       <a class="textnav" href="../pages/histoire.html">Histoire</a>
       <img src="../assets/logo.png" class="textnav">
   </header>
-	<div>
-    <img src="../assets/exterieur-restaurant.jpg">
+	<div class="Article1">
+    <img src="../assets/exterieur-restaurant.jpg" class="facade">
+    <div class="formulaire">
+      FORMULAIRE DE RESERVATION<br>
+      <div class="group">
+        <div>Nom<br><input type="text" name="nom" required minlength="4" maxlength="50" size="10"></div>
+        
+        <div>Prenom<br><input type="text" name="prenom" required minlength="4" maxlength="50" size="100"></div>
+      </div>
+      
+      <div class="group">
+        <div>Email<br><input type="text" name="email" required minlength="4" maxlength="50" size="100"></div>
+        
+        <div>Téléphone<br><input type="text" name="telephone" required minlength="4" maxlength="50" size="100"></div>
+      </div>
+      
+      
+      
+      <div class="group">
+        <div>Nombre de couvert<br><select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5+">5+</option>
+        </select></div>
+        
+        <div>Date de réservation<br><input type="date" id="start" name="trip-start"
+        value="2018-07-22"
+        min="2018-01-01" max="2018-12-31"></div>
+        
+      </div>
+      
+      
+    </div>
   </div>
   <div class="footer">
     <div>
