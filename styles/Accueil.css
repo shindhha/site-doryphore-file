@@ -1,9 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overlock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
 .textA1 {
-	font-family: "Rouge Script";
-	align-self: center;
+	background-image: url("../assets/logomodif.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-size: 36px;
 	width: 1078px;
+	height: 100%;
 	text-align: center;
+	
 }
 .imgA1 {
 	height: 588px;
@@ -14,12 +23,25 @@
 
 }
 .Article1 {
+	text-align: center;
+	font-family: 'Rouge Script', cursive;
+	font-size: 36px;
+	background-color: white;
 	padding: 50px;
 	height: 650px;
 	display: flex;
-	justify-content: space-between;
-	background-color: #8c6a57;
+	justify-content: center;
+	gap: 250px;
+	color: #8c6a57;
+}
+
+.Article1 .buttun {
+
+
+	padding: 5px;
+	border: none;
 	color: white;
+	background-color: #8c6a57;
 }
 .Article2 {
 	background-color: #8c6a57;
@@ -65,6 +87,7 @@
 }
 
 .Accueil {
+	font-family: 'Rouge Script', cursive;
 	border-color: #C8C8C8;
 	width: 100%;
 	height: 900px;
@@ -77,6 +100,7 @@
 	text-align: center;
 }
 .menu {
+
 	background-image: url("../assets/texture.png");
 	width: 700px;
 	height: 600px;
@@ -86,10 +110,20 @@
 }
 
 .textplat {
-	margin-top: 60px;
+	font-family: 'Rouge Script', cursive;
+	font-size: 35px;
+	margin-top: 35px;
+	text-align: center;
 }
 
 .buttun .Article1 {
 	margin-bottom: 0;
 	display: inline-block;
 }
+
+.notrehistoire {
+	position: absolute;
+	bottom: 0;
+}
+
+@media ()
